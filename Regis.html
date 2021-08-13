@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Welcome to SBI Bank</title>
+	<style type="text/css">
+	body{
+		color: black;
+		font-family: Consolas;
+		font-weight: bold;
+	}
+	#table1{
+		font-size: 18px;
+		font-family: Calibri;
+
+	}
+	a{
+		text-decoration: none;
+		font-family: Consolas;
+		color: whitesmoke;
+	}
+	a:hover{
+		text-decoration: underline;
+		color: whitesmoke;
+	}
+	table{
+		font-size: 20px;
+	}
+</style>
+</head>
+<body>
+	<table width="100%" style="text-align: center;" id=table1>
+		<tr>
+			<td width="25%">
+				<img src="images/logo.jpg" width="100" height="75" align="left">
+			</td>
+			<td width="50%">
+				<h1 style="color: black; font-family: sans-serif Consolas;"><img src="https://qph.fs.quoracdn.net/main-qimg-2569681f342dd6c9319e2cab8920dbd2.webp" width="35" height="35"> State Bank Of india</h1>
+			</td>
+			<td>
+				<img src="images/logo1.jpg" width="100" height="75" align="right">
+			</td>
+		</tr>
+	</table><br><br>
+	<table width="100%" cellpadding="5px" style="text-align: center; font-weight: bold; font-size: 19px;">
+		<tr colspan=3 bgcolor="blue">
+			<td width="25%">
+				<a href="Bank.html">Home</a>
+			</td>
+			<td>
+				<a href="Regis.html">Registration</a>
+			</td>
+			<td width="=25%">
+				<a href="About.html">About us</a>
+			</td>
+		</tr>
+	</table><br><br>
+	<form action="Regis2.html" method="get">
+		<table width="40%" style="text-align: center;">
+			<tr>
+				<td>
+					First Name:
+				</td>
+				<td><input type="text" name="fname" size="30px" required></td>
+			</tr>
+			<tr>
+				<td>
+					Last Name:
+				</td>
+				<td>
+					<input type="textbox" name="lname" size="30px" required="">
+				</td>
+			</tr>
+			<tr>
+				<td>Mobile number</td>
+				<td><input type="Mobile" name="Mobile" size="30px" required=""></td>
+			</tr>
+			<tr>
+				<td>Email id:</td>
+				<td><input type="email" name="Email" size="30px" required></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><textarea name="Address" rows="8" cols="32">Enter your address here!!</textarea></td>
+			</tr>
+			<tr>
+				<td>City:</td>
+				<td>
+					<select name="city">
+						<option>--Select--</option>
+						<option>Pune</option>
+						<option>Mumbai</option>
+						<option>Delhi</option> 
+						<option>Hyderabad</option>
+						<option>Bengaluru</option>
+						<option>Kolkata</option>
+						<option>Aurangabad</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>State:</td>
+				<td>
+					<select name="state">
+						<option>---Select---</option>
+						<option>Maharashtra</option>
+						<option>Telangana</option>
+						<option>Rajasthan</option> 
+						<option>West Bengal</option>
+						<option>Karnataka</option>
+						<option>Punjab</option>
+						<option>Gujarat</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<br><br><br><input type="submit" name="submit" value="Submit">
+					<input type="reset" name="reset" value="Reset">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

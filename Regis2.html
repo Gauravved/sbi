@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Welcome to SBI bank</title>
+	<style type="text/css">
+	body{
+		color: black;
+		font-family: Consolas;
+		font-size: 18px;
+	}
+	a{
+		text-decoration: none;
+		font-family: Consolas;
+		color: whitesmoke;
+	}
+	a:hover{
+		text-decoration: underline;
+		color: whitesmoke;
+	}
+	center{
+		border: solid 3px blue;
+	}
+	table{
+		font-size: 18px;
+	}
+</style>
+</head>
+<body>
+	<table width="100%" style="text-align: center; font-family: Calibri;">
+		<tr>
+			<td width="25%">
+				<img src="images/logo.jpg" width="100" height="75" align="left">
+			</td>
+			<td width="50%">
+				<h1 style="color: black; font-family: sans-serif Consolas;"><img src="https://qph.fs.quoracdn.net/main-qimg-2569681f342dd6c9319e2cab8920dbd2.webp" width="35" height="35"> State Bank Of india</h1>
+			</td>
+			<td>
+				<img src="images/logo1.jpg" width="100" height="75" align="right">
+			</td>
+		</tr>
+	</table><br><br>
+	<table width="100%" cellpadding="5px" style="text-align: center; font-weight: bold; font-size: 19px;">
+		<tr colspan=3 bgcolor="blue">
+			<td width="25%">
+				<a href="Bank.html">Home</a>
+			</td>
+			<td>
+				<a href="Regis.html">Registration</a>
+			</td>
+			<td width="=25%">
+				<a href="About.html">About us</a>
+			</td>
+		</tr>
+	</table>
+	<center>
+		<form action="Bank.html" method="get">
+			<img src="images\banking.jpg" width="300px" height="100px">
+			<br><br>Enter Your Account number<br>
+			<input type="textbox" name="account" size="30px" maxlength="11" required="">
+			<br><br>Enter password:<br>
+			<input type="password" name="password" size="30px" maxlength="4" required="">
+			<br><br><input type="submit" name="Submit"><input type="reset" name="Reset">
+		</form>
+	</center>
+</body>
+</html>
